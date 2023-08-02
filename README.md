@@ -1,8 +1,14 @@
-# Sample Hardhat Project
+# NFT Minter HardHat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project contains smart contract for NFT minter. 
+We can find the solidity contract at `contracts\NFTMint.sol`
 
-Try running some of the following tasks:
+The project also has support for Makefile. We can deploy our solidity contract to testnet using command
+`make deploy`
+
+make sure to add `ALCHEMY_API_KEY` and `SEPHOLIA_PRIVATE_KEY` at hardhat.config.ts
+
+Apart from make we can also use this commands:
 
 ```shell
 npx hardhat help
